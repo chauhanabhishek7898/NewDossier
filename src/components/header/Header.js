@@ -2,6 +2,7 @@
 
 import React from "react";
 import "./Header.css";
+import logo from "../../assets/images/since_1999.png"
 export default function Header(props) {
   return (
     <div className="header">
@@ -10,10 +11,10 @@ export default function Header(props) {
           <div className="top_header">
             <div className="left_header">
               <span>
-                <img className="image-footer" src="../../assets/images/bottom text logo.png" alt="" />
+                <img className="image-footer" src={require("../../assets/images/bottom text logo.png")} alt="Dossier" ></img>
               </span>
               <span className="span-in">
-                <img className="image-footer" src="../../assets/images/since_1999.png" alt="" />
+                <img className="image-footer-2" src={logo} alt="Since_1999" />
               </span>
             </div>
             <div className="right_header">

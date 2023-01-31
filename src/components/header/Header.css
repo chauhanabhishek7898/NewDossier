@@ -1,49 +1,58 @@
 .main_headeer {
+  display: block;
   background-image: linear-gradient(to right, #1ae2ef, #00bfe8, #009bdc, #0076c5, #2c4fa4);
   box-shadow: 0 0 6px #0000004d;
 }
+
 .container-xl {
   width: 100%;
   max-width: 1337px;
-  padding-right: 15px;
+  padding-right: 25px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+
 .top_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .top_header {
   padding: 5px 0;
   display: flex;
   align-items: center;
 }
+
 .top_header .right_header ul {
   display: flex;
   align-items: center;
-  margin-bottom: 0;
   color: #fff;
 }
+
 .span-in {
   margin-top: 0px;
   margin-left: 60px;
 }
+
 .top_header .left_header img {
-  width: 110px;
-  height: 90px;
-  background-color: #fff;
+  width: 100px;
+  height: 86px;
+  vertical-align: middle;
 }
+
 .left_header span {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
 }
+
 .right_header {
   display: flex;
   flex: 1;
 }
+
 .log-in-buton {
   border: none;
   font-weight: 700;
@@ -54,24 +63,32 @@
   border-radius: 50px;
   color: #fff;
 }
+
 .right_header ul {
   display: flex;
   align-items: center;
-  margin-bottom: 0;
   color: #fff;
   justify-content: space-between;
-  flex: 0.3;
+  flex: 0.24;
+  font-size: 16px;
 }
+
 .btn-sign-up {
   flex: 0.4;
   justify-content: space-between;
   align-items: center;
   display: flex;
 }
-.blank-div{
-  flex: 0.3;
+
+.blank-div {
+  flex: 0.36;
 }
-ul
-{
-    list-style-type: none;
+
+ul {
+  list-style-type: none;
+}
+
+.image-footer-2 {
+  width: 86px;
+  height: 86px;
 }
