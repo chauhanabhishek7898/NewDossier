@@ -32,10 +32,22 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Header title="My header" subtitle="subtitle2" />
-      <Main message="My content" />
-      <Footer note="Footer Note" />
+    <div className="app">
+      <div className="allcontent">
+        <div className="app-header">
+          <Header className="app-header" title="My header" subtitle="subtitle2" />
+        </div>
+
+        <div className="app-main">
+          <Main message="My content" />
+        </div>
+
+        <div className="app-footer">
+          <Footer note="Footer Note" />
+        </div>
+      </div>
+
+
     </div>
   );
 }
