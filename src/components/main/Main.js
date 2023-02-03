@@ -368,8 +368,8 @@ export default function Header(props) {
             <div class="right_pickup_box">
               <div class="app_img_box">
                 <p class="title">Download the Dossier APP on</p>
-                {/* <span class="app_image"><img src="../../assets/images/googleplay.png" alt=""></span>
-                    <span class="app_image"><img src="../../assets/images/AppStore-logo-1.png" alt=""></span> */}
+                <span class="app_image"><img src={require("../../assets/images/googleplay.png")} alt=""/></span>
+                    <span class="app_image"><img src={require("../../assets/images/AppStore-logo-1.png")} alt=""/></span>
               </div>
             </div>
           </div>

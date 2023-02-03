@@ -134,3 +134,11 @@
 .courier_details{
   text-align: left;
 }
+.pickup{
+padding-left: 307px;
+padding-right: 307px;
+background: rgba(204,204,204,.3);
+color: #000;
+padding-top: 49px;
+padding-bottom: 49px;
+}

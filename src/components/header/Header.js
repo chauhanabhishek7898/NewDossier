@@ -3,11 +3,7 @@
 import React from 'react'
 import "./Header.css";
 import logo from "../../assets/images/since_1999.png"
-import { Route, Routes } from 'react-router-dom'
 
-const Home = React.lazy(() => import('../navpages/Home.js'))
-const AboutUs = React.lazy(() => import('../navpages/AboutUs.js'))
-const ContactUs = React.lazy(() => import('../navpages/ContactUs.js'))
 export default function Header(props) {
   return (
     <div className="header">
