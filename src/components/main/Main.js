@@ -296,6 +296,8 @@ export default function Header(props) {
 
       {/* middle */}
 
+
+      {/* image cities */}
       <div className="container-xll">
         <div className="delivery_city">
           <div className="delivery_heading">
@@ -347,7 +349,33 @@ export default function Header(props) {
           </div>
         </div>
       </div>
+      {/* image cities */}
 
+      {/* srikant section */}
+      <section>
+        <div class="pickup">
+          <div class="container-lg pickup_wrap_box">
+            <div class="left_pickup_box">
+              <ul>
+                <li>
+                  <div>
+                    <h3 class="title_heading">Pickup and Drop anywhere within the City</h3>
+                    <p class="title">Choose your pickup & drop location from within the city</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="right_pickup_box">
+              <div class="app_img_box">
+                <p class="title">Download the Dossier APP on</p>
+                {/* <span class="app_image"><img src="../../assets/images/googleplay.png" alt=""></span>
+                    <span class="app_image"><img src="../../assets/images/AppStore-logo-1.png" alt=""></span> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* srikant section */}
     </div>
   );
 }

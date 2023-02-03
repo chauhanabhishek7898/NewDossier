@@ -1,8 +1,13 @@
 
 
-import React from "react";
+import React from 'react'
 import "./Header.css";
 import logo from "../../assets/images/since_1999.png"
+import { Route, Routes } from 'react-router-dom'
+
+const Home = React.lazy(() => import('../navpages/Home.js'))
+const AboutUs = React.lazy(() => import('../navpages/AboutUs.js'))
+const ContactUs = React.lazy(() => import('../navpages/ContactUs.js'))
 export default function Header(props) {
   return (
     <div className="header">
@@ -21,6 +26,15 @@ export default function Header(props) {
               <div className="blank-div">
 
               </div>
+
+              {/* <Routes>
+              <Route path="/" element={<Home />} />
+               <Route exact path="/home" name="Home" element={<Home />} />
+                <Route exact path="/about" name="About Us" element={<AboutUs />} />
+                <Route exact path="/contact" name="Contact Us" element={<ContactUs />} />
+
+              </Routes> */}
+
               <ul>
                 <li>Home</li>
                 <li>About Us</li>
@@ -46,3 +60,4 @@ export default function Header(props) {
     </div>
   );
 }
+
