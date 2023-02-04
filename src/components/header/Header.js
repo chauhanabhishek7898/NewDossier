@@ -3,7 +3,11 @@
 import React from 'react'
 import "./Header.css";
 import logo from "../../assets/images/since_1999.png"
+import { Link } from "react-router-dom";
 
+// import AboutUs from "../navpages/AboutUs";
+// import Home from "../navpages/Home";
+// import ContactUs from "../navpages/ContactUs";
 export default function Header(props) {
   return (
     <div className="header">
@@ -31,13 +35,50 @@ export default function Header(props) {
 
               </Routes> */}
 
+              {/* <Router>
+
+                <div>
+                  <ul>
+                    <li>
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                      <Link to="/aboutus" >AboutUs</Link>
+                    </li>
+                    <li>
+                      <Link to="/contactus" >ContactUs</Link>
+                    </li>
+                  </ul>
+
+                  <hr />
+                  <Routes>
+                    <Route exact path="/" element={<Home />} component={Home} />
+                    <Route path="/about" element={<AboutUs />} component={AboutUs} />
+                    <Route path="/contactus" element={<ContactUs />} component={ContactUs} />
+
+                  </Routes>
+                </div>
+              </Router>; */}
+
               <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about" >AboutUs</Link>
+                </li>
+                <li>
+                  <Link to="/contact" >ContactUs</Link>
+                </li>
+              </ul>
+
+              {/* <ul>
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Contact Us</li>
                 <li>
-                </li>
-              </ul>
+                </li> 
+              </ul>  */}
               <div className="btn-sign-up">
                 <button className="log-in-buton" >
                   Driver's Signup
