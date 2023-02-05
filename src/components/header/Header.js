@@ -81,13 +81,16 @@ export default function Header(props) {
               </ul>  */}
               <div className="btn-sign-up">
                 <button className="log-in-buton" >
-                  Driver's Signup
+                  <Link to="/customersignup" >Driver's Signup</Link>
+
                 </button>
                 <button className="log-in-buton" >
-                  Customer's Signup
+                  <Link to="/driversignup" >Customer's Signup</Link>
+
                 </button>
                 <button className="log-in-buton" >
-                  Corporate's Signup
+                  <Link to="/corporatesignup" >Corporate's Signup</Link>
+
                 </button>
               </div>
             </div>
