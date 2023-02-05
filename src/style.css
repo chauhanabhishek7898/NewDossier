@@ -139,11 +139,11 @@
 
 .contact_us_box {
   box-shadow: 0 0 6px 0 rgb(0 0 0 / 40%);
-  width: 45%;
+  width: 36%;
   padding: 15px;
   border-radius: 15px;
   border-top: 6px solid #40a8d1;
-  min-height: 349px;
+  min-height: 300px;
   margin-bottom: 20px;
 
   /* &:nth-child(2){
@@ -190,4 +190,42 @@
 .policy_list_heading {
   font-size: 13px;
   font-weight: 500;
+}
+
+.container-lg {
+  padding-right: 15px;
+  padding-left: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.medium-row {
+  justify-content: center;
+  width: 65%;
+  align-items: center;
+}
+
+.first-block {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.col-xl-4 {
+  box-shadow: 0 0 6px #0006;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 22px;
+  background: #fff;
+  height: 389px;
+  width: 338px;
+}
+
+.second-block {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
